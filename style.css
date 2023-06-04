@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+    padding: 0.5rem;
+}
+body{
+    border: 0.4rem solid black;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+}
+#image-container{
+    display: flex;
+    aspect-ratio: 3/2;
+    justify-content: center;
+    object-fit: contain;
+}
+#current-image-container{
+    background-color: black;
+}
+h1{
+    padding-left: 1rem;
+    color: white;
+    font-size: 3rem;
+}
+h3{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+p{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+h3,p{
+    color: white;
+}
+#search{
+    padding-top: 0rem;
+}
+#title-2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+label{
+    font-size: 1rem;
+    font-weight: 800;
+}
+form{
+    border: 2px solid black;
+    background-color: rgb(179, 173, 173);
+}
+input{
+    width: 10rem;
+}
+#search-history{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#image-container>img,
+#image-container>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#search-history>li {
+    list-style: none;
+    cursor: pointer;
+}
+#search{
+    background-color: black;
+    color: white;
+    width: 6rem;
+    padding: 1px;
+    height: 35px;
+}
+#search-input{
+    font-size: 1rem;
+    font-weight: 600;
+}
+#search:hover{
+    background-color: rgb(122, 119, 119);
+    cursor: pointer;
+}
+#prev-search{
+    font-size: 2rem;
+    font-weight: 600;
+}
+li{
+    font-weight: 600;
+}
